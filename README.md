@@ -7,27 +7,39 @@ This project shows how to build an AI assistant that can:
 🌦️ Get weather info using another tool server
 
 It uses:
-mathserver.py → math tools via stdio
-weatherserver.py → weather tool via HTTP API
-client.py → connects both using LangChain + Groq model
 
-🔧 Requirements
+mathserver.py → 
+math tools via stdio ,
+
+weatherserver.py → 
+weather tool via HTTP API,
+
+client.py → 
+connects both using LangChain + Groq model
+
+🔧 Requirements:
+
 Python 3.8+
+
 pip install -r requirements.txt
 
 Add .env file insdie add groq API Key
+
 GROQ_API_KEY=your_groq_api_key
 
 ▶️ How to Run
-Run mathserver.py in one terminal:
 
-python mathserver.py
+Run mathserver.py in one terminal:  
+
+  python mathserver.py
 
 Run weather.py in another:
-python weather.py
+
+  python weather.py
 
 Run the main client:
-python client.py
+
+  python client.py
 
 ✅ Output Example
 
